@@ -13,7 +13,7 @@
    display:block;
 }  */
 
-
+/* +++++++++++++++ Slider ++++++++++++++ */
 * {box-sizing:border-box}
 
 /* Kontener slajdera */
@@ -121,4 +121,9 @@ img {vertical-align: middle;}
 /* zmniejsza rozmiar tekstu na mniejszych ekranach */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+/* +++++++++++++++ Polecamy Gridbox++++++++++++++ */
+
+.polecamy-grid-box img{
+  transition: transform .25s ease;
 }
